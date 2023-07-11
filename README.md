@@ -15,9 +15,18 @@ This is a Google Chrome extension that allows you to navigate and highlight the 
 
 ## Instalación
 
-1. Descarga la extensión desde el [Chrome Web Store](enlace-de-chrome-web-store).
+Para instalar la extensión, sigue estos pasos:
+1. Clona el repositorio desde GitHub utilizando el siguiente comando en tu terminal:
+
+```bash
+git clone (https://github.com/nicolaszucca/scrolllinks-extension/tree/main)
+```
+
+
 2. Abre Google Chrome y ve a la página de extensiones (`chrome://extensions`).
-3. Arrastra y suelta el archivo descargado en la página de extensiones para instalarlo.
+3. Habilita el modo de desarrollador, que se encuentra en la esquina superior derecha de la página.
+4. Haz clic en "Cargar descomprimida" y selecciona la carpeta del repositorio clonado.
+5. La extensión se cargará y estará lista para usar.
 
 ## Uso
 

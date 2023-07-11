@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "Scrolllinks",
+    "version": "0.0.0.1",
+    "description": "Perform google searches using the keyboard",
+    "icons": {
+        "16": "images/logo.png",
+        "32": "images/logo.png",
+        "48": "images/logo.png",
+        "128": "images/logo.png"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.google.com/search?q=*"
+            ],
+            "run_at": "document_idle",
+            "allFrames": true,
+            "js": [
+                "scripts/content-script.js"
+            ]
+        }
+    ]
+}
